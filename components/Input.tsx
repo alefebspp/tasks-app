@@ -6,18 +6,9 @@ type Props = InputHTMLAttributes<HTMLInputElement> & {
   register?: UseFormRegister<any>;
   label?: string;
   name: string;
-  className?: string;
-  error?: FieldError | undefined;
 };
 
-export default function Input({
-  register,
-  name,
-  className,
-  error,
-  label,
-  ...props
-}: Props) {
+export default function Input({ register, name, label, ...props }: Props) {
   return (
     <div className={styles.container}>
       <label htmlFor={name}>{label}</label>
