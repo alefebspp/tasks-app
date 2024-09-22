@@ -1,0 +1,42 @@
+@import "mixins";
+
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px dashed #D7DDE9;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 8px;
+
+    &:hover{
+        background-color: #F7F9FD;
+        border-color: white;
+    }
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.completed-task-text {
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: line-through;
+}
+
+.text{
+  max-width: 300px;
+  white-space: nowrap; /* Impede a quebra de linha */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites do container */
+  text-overflow: ellipsis;
+}

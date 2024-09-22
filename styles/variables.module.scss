@@ -1,0 +1,16 @@
+
+$color-blue-primary: #0796D3; 
+$color-blue-secondary: #53C0F0; 
+$color-blue-light: #A0DCF6;
+
+$text-gray: #000 54%;
+
+.layout {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: 1024px){
+        padding: 24px 56px 0px 56px;
+    }
+}

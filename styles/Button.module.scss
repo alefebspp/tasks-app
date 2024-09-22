@@ -1,0 +1,34 @@
+.button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    height: 51px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 8px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.primary {
+    color: white;
+    background-image: linear-gradient(to right, #0796D3 0%, #53C0F0 40%, #0796D3 100%);
+}
+
+.destructive {
+    color: white;
+    background-image: linear-gradient(to right, #D30707 0%, #f36868 40%,#D30707 100%);
+}
