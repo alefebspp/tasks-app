@@ -1,5 +1,5 @@
 import { InputHTMLAttributes } from "react";
-import { FieldError, UseFormRegister } from "react-hook-form";
+import { UseFormRegister } from "react-hook-form";
 import styles from "@/styles/Input.module.scss";
 
 type Props = InputHTMLAttributes<HTMLInputElement> & {
